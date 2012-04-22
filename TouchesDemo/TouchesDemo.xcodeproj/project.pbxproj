@@ -1,0 +1,288 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		924F04DD1534608D0045CE3C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 924F04DC1534608D0045CE3C /* UIKit.framework */; };
+		924F04DF1534608D0045CE3C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 924F04DE1534608D0045CE3C /* Foundation.framework */; };
+		924F04E11534608D0045CE3C /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 924F04E01534608D0045CE3C /* CoreGraphics.framework */; };
+		924F04E71534608D0045CE3C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 924F04E51534608D0045CE3C /* InfoPlist.strings */; };
+		924F04E91534608D0045CE3C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 924F04E81534608D0045CE3C /* main.m */; };
+		924F04ED1534608D0045CE3C /* TouchesAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 924F04EC1534608D0045CE3C /* TouchesAppDelegate.m */; };
+		924F04F01534608D0045CE3C /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 924F04EE1534608D0045CE3C /* MainStoryboard.storyboard */; };
+		924F04F31534608D0045CE3C /* TouchesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 924F04F21534608D0045CE3C /* TouchesViewController.m */; };
+		924F04FB153462B90045CE3C /* MyTouchView.m in Sources */ = {isa = PBXBuildFile; fileRef = 924F04FA153462B90045CE3C /* MyTouchView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		924F04D81534608D0045CE3C /* TouchesDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TouchesDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		924F04DC1534608D0045CE3C /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		924F04DE1534608D0045CE3C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		924F04E01534608D0045CE3C /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		924F04E41534608D0045CE3C /* TouchesDemo-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TouchesDemo-Info.plist"; sourceTree = "<group>"; };
+		924F04E61534608D0045CE3C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		924F04E81534608D0045CE3C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		924F04EA1534608D0045CE3C /* TouchesDemo-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TouchesDemo-Prefix.pch"; sourceTree = "<group>"; };
+		924F04EB1534608D0045CE3C /* TouchesAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TouchesAppDelegate.h; sourceTree = "<group>"; };
+		924F04EC1534608D0045CE3C /* TouchesAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TouchesAppDelegate.m; sourceTree = "<group>"; };
+		924F04EF1534608D0045CE3C /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		924F04F11534608D0045CE3C /* TouchesViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TouchesViewController.h; sourceTree = "<group>"; };
+		924F04F21534608D0045CE3C /* TouchesViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TouchesViewController.m; sourceTree = "<group>"; };
+		924F04F9153462B90045CE3C /* MyTouchView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyTouchView.h; sourceTree = "<group>"; };
+		924F04FA153462B90045CE3C /* MyTouchView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyTouchView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		924F04D51534608D0045CE3C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				924F04DD1534608D0045CE3C /* UIKit.framework in Frameworks */,
+				924F04DF1534608D0045CE3C /* Foundation.framework in Frameworks */,
+				924F04E11534608D0045CE3C /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		924F04CD1534608D0045CE3C = {
+			isa = PBXGroup;
+			children = (
+				924F04E21534608D0045CE3C /* TouchesDemo */,
+				924F04DB1534608D0045CE3C /* Frameworks */,
+				924F04D91534608D0045CE3C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		924F04D91534608D0045CE3C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				924F04D81534608D0045CE3C /* TouchesDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		924F04DB1534608D0045CE3C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				924F04DC1534608D0045CE3C /* UIKit.framework */,
+				924F04DE1534608D0045CE3C /* Foundation.framework */,
+				924F04E01534608D0045CE3C /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		924F04E21534608D0045CE3C /* TouchesDemo */ = {
+			isa = PBXGroup;
+			children = (
+				924F04EB1534608D0045CE3C /* TouchesAppDelegate.h */,
+				924F04EC1534608D0045CE3C /* TouchesAppDelegate.m */,
+				924F04EE1534608D0045CE3C /* MainStoryboard.storyboard */,
+				924F04F9153462B90045CE3C /* MyTouchView.h */,
+				924F04FA153462B90045CE3C /* MyTouchView.m */,
+				924F04F11534608D0045CE3C /* TouchesViewController.h */,
+				924F04F21534608D0045CE3C /* TouchesViewController.m */,
+				924F04E31534608D0045CE3C /* Supporting Files */,
+			);
+			path = TouchesDemo;
+			sourceTree = "<group>";
+		};
+		924F04E31534608D0045CE3C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				924F04E41534608D0045CE3C /* TouchesDemo-Info.plist */,
+				924F04E51534608D0045CE3C /* InfoPlist.strings */,
+				924F04E81534608D0045CE3C /* main.m */,
+				924F04EA1534608D0045CE3C /* TouchesDemo-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		924F04D71534608D0045CE3C /* TouchesDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 924F04F61534608D0045CE3C /* Build configuration list for PBXNativeTarget "TouchesDemo" */;
+			buildPhases = (
+				924F04D41534608D0045CE3C /* Sources */,
+				924F04D51534608D0045CE3C /* Frameworks */,
+				924F04D61534608D0045CE3C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TouchesDemo;
+			productName = TouchesDemo;
+			productReference = 924F04D81534608D0045CE3C /* TouchesDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		924F04CF1534608D0045CE3C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = Touches;
+				LastUpgradeCheck = 0430;
+			};
+			buildConfigurationList = 924F04D21534608D0045CE3C /* Build configuration list for PBXProject "TouchesDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 924F04CD1534608D0045CE3C;
+			productRefGroup = 924F04D91534608D0045CE3C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				924F04D71534608D0045CE3C /* TouchesDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		924F04D61534608D0045CE3C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				924F04E71534608D0045CE3C /* InfoPlist.strings in Resources */,
+				924F04F01534608D0045CE3C /* MainStoryboard.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		924F04D41534608D0045CE3C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				924F04E91534608D0045CE3C /* main.m in Sources */,
+				924F04ED1534608D0045CE3C /* TouchesAppDelegate.m in Sources */,
+				924F04F31534608D0045CE3C /* TouchesViewController.m in Sources */,
+				924F04FB153462B90045CE3C /* MyTouchView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		924F04E51534608D0045CE3C /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				924F04E61534608D0045CE3C /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		924F04EE1534608D0045CE3C /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				924F04EF1534608D0045CE3C /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		924F04F41534608D0045CE3C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		924F04F51534608D0045CE3C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		924F04F71534608D0045CE3C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TouchesDemo/TouchesDemo-Prefix.pch";
+				INFOPLIST_FILE = "TouchesDemo/TouchesDemo-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		924F04F81534608D0045CE3C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TouchesDemo/TouchesDemo-Prefix.pch";
+				INFOPLIST_FILE = "TouchesDemo/TouchesDemo-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		924F04D21534608D0045CE3C /* Build configuration list for PBXProject "TouchesDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				924F04F41534608D0045CE3C /* Debug */,
+				924F04F51534608D0045CE3C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		924F04F61534608D0045CE3C /* Build configuration list for PBXNativeTarget "TouchesDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				924F04F71534608D0045CE3C /* Debug */,
+				924F04F81534608D0045CE3C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 924F04CF1534608D0045CE3C /* Project object */;
+}

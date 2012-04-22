@@ -1,0 +1,281 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9268343D150633B2001E2AC9 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9268343C150633B2001E2AC9 /* UIKit.framework */; };
+		9268343F150633B2001E2AC9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9268343E150633B2001E2AC9 /* Foundation.framework */; };
+		92683441150633B2001E2AC9 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 92683440150633B2001E2AC9 /* CoreGraphics.framework */; };
+		92683447150633B2001E2AC9 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 92683445150633B2001E2AC9 /* InfoPlist.strings */; };
+		92683449150633B2001E2AC9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 92683448150633B2001E2AC9 /* main.m */; };
+		9268344D150633B2001E2AC9 /* HolaAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9268344C150633B2001E2AC9 /* HolaAppDelegate.m */; };
+		92683450150633B2001E2AC9 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9268344E150633B2001E2AC9 /* MainStoryboard.storyboard */; };
+		92683453150633B2001E2AC9 /* HolaViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 92683452150633B2001E2AC9 /* HolaViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		92683438150633B2001E2AC9 /* HolaMundo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HolaMundo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9268343C150633B2001E2AC9 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		9268343E150633B2001E2AC9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		92683440150633B2001E2AC9 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		92683444150633B2001E2AC9 /* HolaMundo-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "HolaMundo-Info.plist"; sourceTree = "<group>"; };
+		92683446150633B2001E2AC9 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		92683448150633B2001E2AC9 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		9268344A150633B2001E2AC9 /* HolaMundo-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "HolaMundo-Prefix.pch"; sourceTree = "<group>"; };
+		9268344B150633B2001E2AC9 /* HolaAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HolaAppDelegate.h; sourceTree = "<group>"; };
+		9268344C150633B2001E2AC9 /* HolaAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HolaAppDelegate.m; sourceTree = "<group>"; };
+		9268344F150633B2001E2AC9 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		92683451150633B2001E2AC9 /* HolaViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HolaViewController.h; sourceTree = "<group>"; };
+		92683452150633B2001E2AC9 /* HolaViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HolaViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		92683435150633B2001E2AC9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9268343D150633B2001E2AC9 /* UIKit.framework in Frameworks */,
+				9268343F150633B2001E2AC9 /* Foundation.framework in Frameworks */,
+				92683441150633B2001E2AC9 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9268342D150633B2001E2AC9 = {
+			isa = PBXGroup;
+			children = (
+				92683442150633B2001E2AC9 /* HolaMundo */,
+				9268343B150633B2001E2AC9 /* Frameworks */,
+				92683439150633B2001E2AC9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		92683439150633B2001E2AC9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				92683438150633B2001E2AC9 /* HolaMundo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9268343B150633B2001E2AC9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9268343C150633B2001E2AC9 /* UIKit.framework */,
+				9268343E150633B2001E2AC9 /* Foundation.framework */,
+				92683440150633B2001E2AC9 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		92683442150633B2001E2AC9 /* HolaMundo */ = {
+			isa = PBXGroup;
+			children = (
+				9268344B150633B2001E2AC9 /* HolaAppDelegate.h */,
+				9268344C150633B2001E2AC9 /* HolaAppDelegate.m */,
+				9268344E150633B2001E2AC9 /* MainStoryboard.storyboard */,
+				92683451150633B2001E2AC9 /* HolaViewController.h */,
+				92683452150633B2001E2AC9 /* HolaViewController.m */,
+				92683443150633B2001E2AC9 /* Supporting Files */,
+			);
+			path = HolaMundo;
+			sourceTree = "<group>";
+		};
+		92683443150633B2001E2AC9 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				92683444150633B2001E2AC9 /* HolaMundo-Info.plist */,
+				92683445150633B2001E2AC9 /* InfoPlist.strings */,
+				92683448150633B2001E2AC9 /* main.m */,
+				9268344A150633B2001E2AC9 /* HolaMundo-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		92683437150633B2001E2AC9 /* HolaMundo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 92683456150633B2001E2AC9 /* Build configuration list for PBXNativeTarget "HolaMundo" */;
+			buildPhases = (
+				92683434150633B2001E2AC9 /* Sources */,
+				92683435150633B2001E2AC9 /* Frameworks */,
+				92683436150633B2001E2AC9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HolaMundo;
+			productName = HolaMundo;
+			productReference = 92683438150633B2001E2AC9 /* HolaMundo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9268342F150633B2001E2AC9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = 92683432150633B2001E2AC9 /* Build configuration list for PBXProject "HolaMundo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 9268342D150633B2001E2AC9;
+			productRefGroup = 92683439150633B2001E2AC9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				92683437150633B2001E2AC9 /* HolaMundo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		92683436150633B2001E2AC9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				92683447150633B2001E2AC9 /* InfoPlist.strings in Resources */,
+				92683450150633B2001E2AC9 /* MainStoryboard.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		92683434150633B2001E2AC9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				92683449150633B2001E2AC9 /* main.m in Sources */,
+				9268344D150633B2001E2AC9 /* HolaAppDelegate.m in Sources */,
+				92683453150633B2001E2AC9 /* HolaViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		92683445150633B2001E2AC9 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				92683446150633B2001E2AC9 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		9268344E150633B2001E2AC9 /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9268344F150633B2001E2AC9 /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		92683454150633B2001E2AC9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		92683455150633B2001E2AC9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		92683457150633B2001E2AC9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "HolaMundo/HolaMundo-Prefix.pch";
+				INFOPLIST_FILE = "HolaMundo/HolaMundo-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		92683458150633B2001E2AC9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "HolaMundo/HolaMundo-Prefix.pch";
+				INFOPLIST_FILE = "HolaMundo/HolaMundo-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		92683432150633B2001E2AC9 /* Build configuration list for PBXProject "HolaMundo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				92683454150633B2001E2AC9 /* Debug */,
+				92683455150633B2001E2AC9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		92683456150633B2001E2AC9 /* Build configuration list for PBXNativeTarget "HolaMundo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				92683457150633B2001E2AC9 /* Debug */,
+				92683458150633B2001E2AC9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9268342F150633B2001E2AC9 /* Project object */;
+}

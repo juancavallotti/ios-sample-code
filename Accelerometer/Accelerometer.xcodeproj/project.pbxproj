@@ -1,0 +1,286 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		92C1BFCB1537BBC900BDA6F1 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 92C1BFCA1537BBC900BDA6F1 /* UIKit.framework */; };
+		92C1BFCD1537BBC900BDA6F1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 92C1BFCC1537BBC900BDA6F1 /* Foundation.framework */; };
+		92C1BFCF1537BBC900BDA6F1 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 92C1BFCE1537BBC900BDA6F1 /* CoreGraphics.framework */; };
+		92C1BFD51537BBC900BDA6F1 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 92C1BFD31537BBC900BDA6F1 /* InfoPlist.strings */; };
+		92C1BFD71537BBC900BDA6F1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 92C1BFD61537BBC900BDA6F1 /* main.m */; };
+		92C1BFDB1537BBC900BDA6F1 /* AccelAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 92C1BFDA1537BBC900BDA6F1 /* AccelAppDelegate.m */; };
+		92C1BFDE1537BBC900BDA6F1 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 92C1BFDC1537BBC900BDA6F1 /* MainStoryboard.storyboard */; };
+		92C1BFE11537BBC900BDA6F1 /* AccelViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 92C1BFE01537BBC900BDA6F1 /* AccelViewController.m */; };
+		92C1BFE81537BBE900BDA6F1 /* face.png in Resources */ = {isa = PBXBuildFile; fileRef = 92C1BFE71537BBE900BDA6F1 /* face.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		92C1BFC61537BBC900BDA6F1 /* Accelerometer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Accelerometer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		92C1BFCA1537BBC900BDA6F1 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		92C1BFCC1537BBC900BDA6F1 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		92C1BFCE1537BBC900BDA6F1 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		92C1BFD21537BBC900BDA6F1 /* Accelerometer-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Accelerometer-Info.plist"; sourceTree = "<group>"; };
+		92C1BFD41537BBC900BDA6F1 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		92C1BFD61537BBC900BDA6F1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		92C1BFD81537BBC900BDA6F1 /* Accelerometer-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Accelerometer-Prefix.pch"; sourceTree = "<group>"; };
+		92C1BFD91537BBC900BDA6F1 /* AccelAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AccelAppDelegate.h; sourceTree = "<group>"; };
+		92C1BFDA1537BBC900BDA6F1 /* AccelAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AccelAppDelegate.m; sourceTree = "<group>"; };
+		92C1BFDD1537BBC900BDA6F1 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		92C1BFDF1537BBC900BDA6F1 /* AccelViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AccelViewController.h; sourceTree = "<group>"; };
+		92C1BFE01537BBC900BDA6F1 /* AccelViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AccelViewController.m; sourceTree = "<group>"; };
+		92C1BFE71537BBE900BDA6F1 /* face.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = face.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		92C1BFC31537BBC900BDA6F1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				92C1BFCB1537BBC900BDA6F1 /* UIKit.framework in Frameworks */,
+				92C1BFCD1537BBC900BDA6F1 /* Foundation.framework in Frameworks */,
+				92C1BFCF1537BBC900BDA6F1 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		92C1BFBB1537BBC900BDA6F1 = {
+			isa = PBXGroup;
+			children = (
+				92C1BFD01537BBC900BDA6F1 /* Accelerometer */,
+				92C1BFC91537BBC900BDA6F1 /* Frameworks */,
+				92C1BFC71537BBC900BDA6F1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		92C1BFC71537BBC900BDA6F1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				92C1BFC61537BBC900BDA6F1 /* Accelerometer.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		92C1BFC91537BBC900BDA6F1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				92C1BFCA1537BBC900BDA6F1 /* UIKit.framework */,
+				92C1BFCC1537BBC900BDA6F1 /* Foundation.framework */,
+				92C1BFCE1537BBC900BDA6F1 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		92C1BFD01537BBC900BDA6F1 /* Accelerometer */ = {
+			isa = PBXGroup;
+			children = (
+				92C1BFE71537BBE900BDA6F1 /* face.png */,
+				92C1BFD91537BBC900BDA6F1 /* AccelAppDelegate.h */,
+				92C1BFDA1537BBC900BDA6F1 /* AccelAppDelegate.m */,
+				92C1BFDC1537BBC900BDA6F1 /* MainStoryboard.storyboard */,
+				92C1BFDF1537BBC900BDA6F1 /* AccelViewController.h */,
+				92C1BFE01537BBC900BDA6F1 /* AccelViewController.m */,
+				92C1BFD11537BBC900BDA6F1 /* Supporting Files */,
+			);
+			path = Accelerometer;
+			sourceTree = "<group>";
+		};
+		92C1BFD11537BBC900BDA6F1 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				92C1BFD21537BBC900BDA6F1 /* Accelerometer-Info.plist */,
+				92C1BFD31537BBC900BDA6F1 /* InfoPlist.strings */,
+				92C1BFD61537BBC900BDA6F1 /* main.m */,
+				92C1BFD81537BBC900BDA6F1 /* Accelerometer-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		92C1BFC51537BBC900BDA6F1 /* Accelerometer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 92C1BFE41537BBC900BDA6F1 /* Build configuration list for PBXNativeTarget "Accelerometer" */;
+			buildPhases = (
+				92C1BFC21537BBC900BDA6F1 /* Sources */,
+				92C1BFC31537BBC900BDA6F1 /* Frameworks */,
+				92C1BFC41537BBC900BDA6F1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Accelerometer;
+			productName = Accelerometer;
+			productReference = 92C1BFC61537BBC900BDA6F1 /* Accelerometer.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		92C1BFBD1537BBC900BDA6F1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = Accel;
+				LastUpgradeCheck = 0430;
+			};
+			buildConfigurationList = 92C1BFC01537BBC900BDA6F1 /* Build configuration list for PBXProject "Accelerometer" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 92C1BFBB1537BBC900BDA6F1;
+			productRefGroup = 92C1BFC71537BBC900BDA6F1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				92C1BFC51537BBC900BDA6F1 /* Accelerometer */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		92C1BFC41537BBC900BDA6F1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				92C1BFD51537BBC900BDA6F1 /* InfoPlist.strings in Resources */,
+				92C1BFDE1537BBC900BDA6F1 /* MainStoryboard.storyboard in Resources */,
+				92C1BFE81537BBE900BDA6F1 /* face.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		92C1BFC21537BBC900BDA6F1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				92C1BFD71537BBC900BDA6F1 /* main.m in Sources */,
+				92C1BFDB1537BBC900BDA6F1 /* AccelAppDelegate.m in Sources */,
+				92C1BFE11537BBC900BDA6F1 /* AccelViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		92C1BFD31537BBC900BDA6F1 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				92C1BFD41537BBC900BDA6F1 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		92C1BFDC1537BBC900BDA6F1 /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				92C1BFDD1537BBC900BDA6F1 /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		92C1BFE21537BBC900BDA6F1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		92C1BFE31537BBC900BDA6F1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		92C1BFE51537BBC900BDA6F1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Accelerometer/Accelerometer-Prefix.pch";
+				INFOPLIST_FILE = "Accelerometer/Accelerometer-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		92C1BFE61537BBC900BDA6F1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Accelerometer/Accelerometer-Prefix.pch";
+				INFOPLIST_FILE = "Accelerometer/Accelerometer-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		92C1BFC01537BBC900BDA6F1 /* Build configuration list for PBXProject "Accelerometer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				92C1BFE21537BBC900BDA6F1 /* Debug */,
+				92C1BFE31537BBC900BDA6F1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		92C1BFE41537BBC900BDA6F1 /* Build configuration list for PBXNativeTarget "Accelerometer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				92C1BFE51537BBC900BDA6F1 /* Debug */,
+				92C1BFE61537BBC900BDA6F1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 92C1BFBD1537BBC900BDA6F1 /* Project object */;
+}

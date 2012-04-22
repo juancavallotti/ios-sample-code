@@ -1,0 +1,282 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9248375015418ADB000D2AAB /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9248374F15418ADB000D2AAB /* UIKit.framework */; };
+		9248375215418ADB000D2AAB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9248375115418ADB000D2AAB /* Foundation.framework */; };
+		9248375415418ADB000D2AAB /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9248375315418ADB000D2AAB /* CoreGraphics.framework */; };
+		9248375A15418ADB000D2AAB /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 9248375815418ADB000D2AAB /* InfoPlist.strings */; };
+		9248375C15418ADB000D2AAB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9248375B15418ADB000D2AAB /* main.m */; };
+		9248376015418ADB000D2AAB /* AppLlamaAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9248375F15418ADB000D2AAB /* AppLlamaAppDelegate.m */; };
+		9248376315418ADB000D2AAB /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9248376115418ADB000D2AAB /* MainStoryboard.storyboard */; };
+		9248376615418ADB000D2AAB /* AppLlamaViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9248376515418ADB000D2AAB /* AppLlamaViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		9248374B15418ADB000D2AAB /* AppLlama.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AppLlama.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9248374F15418ADB000D2AAB /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		9248375115418ADB000D2AAB /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		9248375315418ADB000D2AAB /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		9248375715418ADB000D2AAB /* AppLlama-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "AppLlama-Info.plist"; sourceTree = "<group>"; };
+		9248375915418ADB000D2AAB /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		9248375B15418ADB000D2AAB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		9248375D15418ADB000D2AAB /* AppLlama-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "AppLlama-Prefix.pch"; sourceTree = "<group>"; };
+		9248375E15418ADB000D2AAB /* AppLlamaAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppLlamaAppDelegate.h; sourceTree = "<group>"; };
+		9248375F15418ADB000D2AAB /* AppLlamaAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppLlamaAppDelegate.m; sourceTree = "<group>"; };
+		9248376215418ADB000D2AAB /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		9248376415418ADB000D2AAB /* AppLlamaViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppLlamaViewController.h; sourceTree = "<group>"; };
+		9248376515418ADB000D2AAB /* AppLlamaViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppLlamaViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9248374815418ADB000D2AAB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9248375015418ADB000D2AAB /* UIKit.framework in Frameworks */,
+				9248375215418ADB000D2AAB /* Foundation.framework in Frameworks */,
+				9248375415418ADB000D2AAB /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9248374015418ADA000D2AAB = {
+			isa = PBXGroup;
+			children = (
+				9248375515418ADB000D2AAB /* AppLlama */,
+				9248374E15418ADB000D2AAB /* Frameworks */,
+				9248374C15418ADB000D2AAB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9248374C15418ADB000D2AAB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9248374B15418ADB000D2AAB /* AppLlama.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9248374E15418ADB000D2AAB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9248374F15418ADB000D2AAB /* UIKit.framework */,
+				9248375115418ADB000D2AAB /* Foundation.framework */,
+				9248375315418ADB000D2AAB /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9248375515418ADB000D2AAB /* AppLlama */ = {
+			isa = PBXGroup;
+			children = (
+				9248375E15418ADB000D2AAB /* AppLlamaAppDelegate.h */,
+				9248375F15418ADB000D2AAB /* AppLlamaAppDelegate.m */,
+				9248376115418ADB000D2AAB /* MainStoryboard.storyboard */,
+				9248376415418ADB000D2AAB /* AppLlamaViewController.h */,
+				9248376515418ADB000D2AAB /* AppLlamaViewController.m */,
+				9248375615418ADB000D2AAB /* Supporting Files */,
+			);
+			path = AppLlama;
+			sourceTree = "<group>";
+		};
+		9248375615418ADB000D2AAB /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				9248375715418ADB000D2AAB /* AppLlama-Info.plist */,
+				9248375815418ADB000D2AAB /* InfoPlist.strings */,
+				9248375B15418ADB000D2AAB /* main.m */,
+				9248375D15418ADB000D2AAB /* AppLlama-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9248374A15418ADB000D2AAB /* AppLlama */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9248376915418ADB000D2AAB /* Build configuration list for PBXNativeTarget "AppLlama" */;
+			buildPhases = (
+				9248374715418ADB000D2AAB /* Sources */,
+				9248374815418ADB000D2AAB /* Frameworks */,
+				9248374915418ADB000D2AAB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AppLlama;
+			productName = AppLlama;
+			productReference = 9248374B15418ADB000D2AAB /* AppLlama.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9248374215418ADA000D2AAB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = AppLlama;
+				LastUpgradeCheck = 0430;
+			};
+			buildConfigurationList = 9248374515418ADA000D2AAB /* Build configuration list for PBXProject "AppLlama" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 9248374015418ADA000D2AAB;
+			productRefGroup = 9248374C15418ADB000D2AAB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9248374A15418ADB000D2AAB /* AppLlama */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9248374915418ADB000D2AAB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9248375A15418ADB000D2AAB /* InfoPlist.strings in Resources */,
+				9248376315418ADB000D2AAB /* MainStoryboard.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9248374715418ADB000D2AAB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9248375C15418ADB000D2AAB /* main.m in Sources */,
+				9248376015418ADB000D2AAB /* AppLlamaAppDelegate.m in Sources */,
+				9248376615418ADB000D2AAB /* AppLlamaViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		9248375815418ADB000D2AAB /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9248375915418ADB000D2AAB /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		9248376115418ADB000D2AAB /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9248376215418ADB000D2AAB /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9248376715418ADB000D2AAB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		9248376815418ADB000D2AAB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9248376A15418ADB000D2AAB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "AppLlama/AppLlama-Prefix.pch";
+				INFOPLIST_FILE = "AppLlama/AppLlama-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		9248376B15418ADB000D2AAB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "AppLlama/AppLlama-Prefix.pch";
+				INFOPLIST_FILE = "AppLlama/AppLlama-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9248374515418ADA000D2AAB /* Build configuration list for PBXProject "AppLlama" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9248376715418ADB000D2AAB /* Debug */,
+				9248376815418ADB000D2AAB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9248376915418ADB000D2AAB /* Build configuration list for PBXNativeTarget "AppLlama" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9248376A15418ADB000D2AAB /* Debug */,
+				9248376B15418ADB000D2AAB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9248374215418ADA000D2AAB /* Project object */;
+}

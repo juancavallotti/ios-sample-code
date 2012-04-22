@@ -1,0 +1,344 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		92A44DFA151357DC00F67CEB /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 92A44DF9151357DC00F67CEB /* UIKit.framework */; };
+		92A44DFC151357DC00F67CEB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 92A44DFB151357DC00F67CEB /* Foundation.framework */; };
+		92A44DFE151357DC00F67CEB /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 92A44DFD151357DC00F67CEB /* CoreGraphics.framework */; };
+		92A44E04151357DC00F67CEB /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 92A44E02151357DC00F67CEB /* InfoPlist.strings */; };
+		92A44E06151357DC00F67CEB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 92A44E05151357DC00F67CEB /* main.m */; };
+		92A44E0A151357DC00F67CEB /* AnimAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 92A44E09151357DC00F67CEB /* AnimAppDelegate.m */; };
+		92A44E0D151357DC00F67CEB /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 92A44E0B151357DC00F67CEB /* MainStoryboard.storyboard */; };
+		92A44E10151357DC00F67CEB /* AnimViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 92A44E0F151357DC00F67CEB /* AnimViewController.m */; };
+		92A44E221513581900F67CEB /* racoon-l-0.png in Resources */ = {isa = PBXBuildFile; fileRef = 92A44E161513581900F67CEB /* racoon-l-0.png */; };
+		92A44E231513581900F67CEB /* racoon-l-1.png in Resources */ = {isa = PBXBuildFile; fileRef = 92A44E171513581900F67CEB /* racoon-l-1.png */; };
+		92A44E241513581900F67CEB /* racoon-l-2.png in Resources */ = {isa = PBXBuildFile; fileRef = 92A44E181513581900F67CEB /* racoon-l-2.png */; };
+		92A44E251513581900F67CEB /* racoon-l-3.png in Resources */ = {isa = PBXBuildFile; fileRef = 92A44E191513581900F67CEB /* racoon-l-3.png */; };
+		92A44E261513581900F67CEB /* racoon-ldown.png in Resources */ = {isa = PBXBuildFile; fileRef = 92A44E1A1513581900F67CEB /* racoon-ldown.png */; };
+		92A44E271513581900F67CEB /* racoon-lj-0.png in Resources */ = {isa = PBXBuildFile; fileRef = 92A44E1B1513581900F67CEB /* racoon-lj-0.png */; };
+		92A44E281513581900F67CEB /* racoon-r-0.png in Resources */ = {isa = PBXBuildFile; fileRef = 92A44E1C1513581900F67CEB /* racoon-r-0.png */; };
+		92A44E291513581900F67CEB /* racoon-r-1.png in Resources */ = {isa = PBXBuildFile; fileRef = 92A44E1D1513581900F67CEB /* racoon-r-1.png */; };
+		92A44E2A1513581900F67CEB /* racoon-r-2.png in Resources */ = {isa = PBXBuildFile; fileRef = 92A44E1E1513581900F67CEB /* racoon-r-2.png */; };
+		92A44E2B1513581900F67CEB /* racoon-r-3.png in Resources */ = {isa = PBXBuildFile; fileRef = 92A44E1F1513581900F67CEB /* racoon-r-3.png */; };
+		92A44E2C1513581900F67CEB /* racoon-rdown.png in Resources */ = {isa = PBXBuildFile; fileRef = 92A44E201513581900F67CEB /* racoon-rdown.png */; };
+		92A44E2D1513581900F67CEB /* racoon-rj-0.png in Resources */ = {isa = PBXBuildFile; fileRef = 92A44E211513581900F67CEB /* racoon-rj-0.png */; };
+		92A44E311513592000F67CEB /* MarioView.m in Sources */ = {isa = PBXBuildFile; fileRef = 92A44E301513592000F67CEB /* MarioView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		92A44DF5151357DC00F67CEB /* Mario.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Mario.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		92A44DF9151357DC00F67CEB /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		92A44DFB151357DC00F67CEB /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		92A44DFD151357DC00F67CEB /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		92A44E01151357DC00F67CEB /* Mario-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Mario-Info.plist"; sourceTree = "<group>"; };
+		92A44E03151357DC00F67CEB /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		92A44E05151357DC00F67CEB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		92A44E07151357DC00F67CEB /* Mario-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Mario-Prefix.pch"; sourceTree = "<group>"; };
+		92A44E08151357DC00F67CEB /* AnimAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AnimAppDelegate.h; sourceTree = "<group>"; };
+		92A44E09151357DC00F67CEB /* AnimAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AnimAppDelegate.m; sourceTree = "<group>"; };
+		92A44E0C151357DC00F67CEB /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		92A44E0E151357DC00F67CEB /* AnimViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AnimViewController.h; sourceTree = "<group>"; };
+		92A44E0F151357DC00F67CEB /* AnimViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AnimViewController.m; sourceTree = "<group>"; };
+		92A44E161513581900F67CEB /* racoon-l-0.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "racoon-l-0.png"; sourceTree = "<group>"; };
+		92A44E171513581900F67CEB /* racoon-l-1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "racoon-l-1.png"; sourceTree = "<group>"; };
+		92A44E181513581900F67CEB /* racoon-l-2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "racoon-l-2.png"; sourceTree = "<group>"; };
+		92A44E191513581900F67CEB /* racoon-l-3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "racoon-l-3.png"; sourceTree = "<group>"; };
+		92A44E1A1513581900F67CEB /* racoon-ldown.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "racoon-ldown.png"; sourceTree = "<group>"; };
+		92A44E1B1513581900F67CEB /* racoon-lj-0.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "racoon-lj-0.png"; sourceTree = "<group>"; };
+		92A44E1C1513581900F67CEB /* racoon-r-0.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "racoon-r-0.png"; sourceTree = "<group>"; };
+		92A44E1D1513581900F67CEB /* racoon-r-1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "racoon-r-1.png"; sourceTree = "<group>"; };
+		92A44E1E1513581900F67CEB /* racoon-r-2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "racoon-r-2.png"; sourceTree = "<group>"; };
+		92A44E1F1513581900F67CEB /* racoon-r-3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "racoon-r-3.png"; sourceTree = "<group>"; };
+		92A44E201513581900F67CEB /* racoon-rdown.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "racoon-rdown.png"; sourceTree = "<group>"; };
+		92A44E211513581900F67CEB /* racoon-rj-0.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "racoon-rj-0.png"; sourceTree = "<group>"; };
+		92A44E2F1513592000F67CEB /* MarioView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MarioView.h; sourceTree = "<group>"; };
+		92A44E301513592000F67CEB /* MarioView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MarioView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		92A44DF2151357DC00F67CEB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				92A44DFA151357DC00F67CEB /* UIKit.framework in Frameworks */,
+				92A44DFC151357DC00F67CEB /* Foundation.framework in Frameworks */,
+				92A44DFE151357DC00F67CEB /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		92A44DEA151357DC00F67CEB = {
+			isa = PBXGroup;
+			children = (
+				92A44DFF151357DC00F67CEB /* Mario */,
+				92A44DF8151357DC00F67CEB /* Frameworks */,
+				92A44DF6151357DC00F67CEB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		92A44DF6151357DC00F67CEB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				92A44DF5151357DC00F67CEB /* Mario.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		92A44DF8151357DC00F67CEB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				92A44DF9151357DC00F67CEB /* UIKit.framework */,
+				92A44DFB151357DC00F67CEB /* Foundation.framework */,
+				92A44DFD151357DC00F67CEB /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		92A44DFF151357DC00F67CEB /* Mario */ = {
+			isa = PBXGroup;
+			children = (
+				92A44E2E1513581F00F67CEB /* sprites */,
+				92A44E08151357DC00F67CEB /* AnimAppDelegate.h */,
+				92A44E09151357DC00F67CEB /* AnimAppDelegate.m */,
+				92A44E0B151357DC00F67CEB /* MainStoryboard.storyboard */,
+				92A44E0E151357DC00F67CEB /* AnimViewController.h */,
+				92A44E0F151357DC00F67CEB /* AnimViewController.m */,
+				92A44E00151357DC00F67CEB /* Supporting Files */,
+				92A44E2F1513592000F67CEB /* MarioView.h */,
+				92A44E301513592000F67CEB /* MarioView.m */,
+			);
+			path = Mario;
+			sourceTree = "<group>";
+		};
+		92A44E00151357DC00F67CEB /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				92A44E01151357DC00F67CEB /* Mario-Info.plist */,
+				92A44E02151357DC00F67CEB /* InfoPlist.strings */,
+				92A44E05151357DC00F67CEB /* main.m */,
+				92A44E07151357DC00F67CEB /* Mario-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		92A44E2E1513581F00F67CEB /* sprites */ = {
+			isa = PBXGroup;
+			children = (
+				92A44E161513581900F67CEB /* racoon-l-0.png */,
+				92A44E171513581900F67CEB /* racoon-l-1.png */,
+				92A44E181513581900F67CEB /* racoon-l-2.png */,
+				92A44E191513581900F67CEB /* racoon-l-3.png */,
+				92A44E1A1513581900F67CEB /* racoon-ldown.png */,
+				92A44E1B1513581900F67CEB /* racoon-lj-0.png */,
+				92A44E1C1513581900F67CEB /* racoon-r-0.png */,
+				92A44E1D1513581900F67CEB /* racoon-r-1.png */,
+				92A44E1E1513581900F67CEB /* racoon-r-2.png */,
+				92A44E1F1513581900F67CEB /* racoon-r-3.png */,
+				92A44E201513581900F67CEB /* racoon-rdown.png */,
+				92A44E211513581900F67CEB /* racoon-rj-0.png */,
+			);
+			name = sprites;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		92A44DF4151357DC00F67CEB /* Mario */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 92A44E13151357DC00F67CEB /* Build configuration list for PBXNativeTarget "Mario" */;
+			buildPhases = (
+				92A44DF1151357DC00F67CEB /* Sources */,
+				92A44DF2151357DC00F67CEB /* Frameworks */,
+				92A44DF3151357DC00F67CEB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Mario;
+			productName = Mario;
+			productReference = 92A44DF5151357DC00F67CEB /* Mario.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		92A44DEC151357DC00F67CEB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = Anim;
+				LastUpgradeCheck = 0430;
+			};
+			buildConfigurationList = 92A44DEF151357DC00F67CEB /* Build configuration list for PBXProject "Mario" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 92A44DEA151357DC00F67CEB;
+			productRefGroup = 92A44DF6151357DC00F67CEB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				92A44DF4151357DC00F67CEB /* Mario */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		92A44DF3151357DC00F67CEB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				92A44E04151357DC00F67CEB /* InfoPlist.strings in Resources */,
+				92A44E0D151357DC00F67CEB /* MainStoryboard.storyboard in Resources */,
+				92A44E221513581900F67CEB /* racoon-l-0.png in Resources */,
+				92A44E231513581900F67CEB /* racoon-l-1.png in Resources */,
+				92A44E241513581900F67CEB /* racoon-l-2.png in Resources */,
+				92A44E251513581900F67CEB /* racoon-l-3.png in Resources */,
+				92A44E261513581900F67CEB /* racoon-ldown.png in Resources */,
+				92A44E271513581900F67CEB /* racoon-lj-0.png in Resources */,
+				92A44E281513581900F67CEB /* racoon-r-0.png in Resources */,
+				92A44E291513581900F67CEB /* racoon-r-1.png in Resources */,
+				92A44E2A1513581900F67CEB /* racoon-r-2.png in Resources */,
+				92A44E2B1513581900F67CEB /* racoon-r-3.png in Resources */,
+				92A44E2C1513581900F67CEB /* racoon-rdown.png in Resources */,
+				92A44E2D1513581900F67CEB /* racoon-rj-0.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		92A44DF1151357DC00F67CEB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				92A44E06151357DC00F67CEB /* main.m in Sources */,
+				92A44E0A151357DC00F67CEB /* AnimAppDelegate.m in Sources */,
+				92A44E10151357DC00F67CEB /* AnimViewController.m in Sources */,
+				92A44E311513592000F67CEB /* MarioView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		92A44E02151357DC00F67CEB /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				92A44E03151357DC00F67CEB /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		92A44E0B151357DC00F67CEB /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				92A44E0C151357DC00F67CEB /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		92A44E11151357DC00F67CEB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		92A44E12151357DC00F67CEB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		92A44E14151357DC00F67CEB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Mario/Mario-Prefix.pch";
+				INFOPLIST_FILE = "Mario/Mario-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		92A44E15151357DC00F67CEB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Mario/Mario-Prefix.pch";
+				INFOPLIST_FILE = "Mario/Mario-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		92A44DEF151357DC00F67CEB /* Build configuration list for PBXProject "Mario" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				92A44E11151357DC00F67CEB /* Debug */,
+				92A44E12151357DC00F67CEB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		92A44E13151357DC00F67CEB /* Build configuration list for PBXNativeTarget "Mario" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				92A44E14151357DC00F67CEB /* Debug */,
+				92A44E15151357DC00F67CEB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 92A44DEC151357DC00F67CEB /* Project object */;
+}
